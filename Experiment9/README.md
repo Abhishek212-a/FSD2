@@ -9,28 +9,9 @@ Experiment9/
 │
 ├── app.py                    # Main Flask app
 │
-├── requirements.txt          # Python dependencies
 │
 ├── README.md                 # Documentation
-│
-├── routes/                   # All route files
-│   ├── __init__.py
-│   ├── auth_routes.py        # Login & token generation
-│   └── protected_routes.py   # JWT protected APIs
-│
-├── utils/                    # Helper functions
-│   ├── __init__.py
-│   └── jwt_handler.py        # Token create/verify logic
-│
-├── config.py                 # Secret keys & config
-│
-└── screenshots/              # Store your PNG images here
-    ├── BASICAUTH.png
-    ├── JWTGEN.png
-    ├── JWTACCESS.png
-    ├── TOKENACCESS.png
-    ├── TOKENAGEN.png
-    ├── RENDERSERVER.png
+
 ```
 
 ### Technologies Used
@@ -42,28 +23,7 @@ Experiment9/
 - Render (Cloud Deployment)
 - Virtual Environment (venv)
 
-### Deployment Base URL --> [Render Link](https://two3bis70052experiment9fsd2.onrender.com/)
-
-
-## STEPS & SCREENSHOTS
-### 1. Server Running
-![](RENDERSERVER.png)
-Flask development server successfully started.
-
-### 2. Basic Authentication (Login with Username & Password)(GET)
-![Basic Authorization](BASICAUTH.png)
-
-### 3. Generate Token(POST)
-![Token Generation](TOKENGEN.png)
-
-### 4. Access Token(GET)
-![Token Access](TOKENACCESS.png)
-
-### 5. Generate JWT Token(Post)
-![Jwt Token Generation](JWTGEN.png)
-
-### 6. Access JWT Token(GET)
-![JWT Access](JWTACCESS.png)
+### Deployment Base URL --> [Render Link](https://two3bis70027-experiment9-fsd2.onrender.com)
 
 
 
