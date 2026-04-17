@@ -8,7 +8,7 @@ Flask + MySQL REST API for managing student records.
 3. Run MySQL setup SQL from `schema.sql`
 4. Start server: `python app.py`
 
-## Render Deployable Link: https://two3bis70052-experiment13fsd2-2.onrender.com
+## Render Deployable Link: https://two3bis70027-experiment13-fsd2.onrender.com
 
 
 ## Endpoints
